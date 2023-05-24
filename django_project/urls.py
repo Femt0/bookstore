@@ -23,7 +23,7 @@ from django.urls import include, path
 
 urlpatterns = [
     # Django admin
-    path('admin/', admin.site.urls),
+    path('SuRe-NoT-AdMiN/', admin.site.urls),
     # accounts
     path('accounts/', include('allauth.urls')),
     # Local apps
